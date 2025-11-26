@@ -1,9 +1,9 @@
-import { Button } from '@/components/ui/button'
-
 export function App() {
   return (
-    <div className="flex items-center justify-center h-screen">
-      <Button variant="outline">Hello World</Button>
+    <div className="relative font-cn antialiased">
+      <div className="flex flex-col items-center justify-center h-screen">
+        <h1 className="text-2xl font-bold">看板</h1>
+      </div>
     </div>
   )
 }
