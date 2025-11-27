@@ -1,8 +1,8 @@
 export function App() {
   return (
-    <div className="relative font-cn antialiased">
-      <div className="flex flex-col items-center justify-center h-screen">
-        <h1 className="text-2xl font-bold">看板</h1>
+    <div className="font-cn antialiased app">
+      <div className="flex flex-col justify-center h-svh gap-4">
+        <h1 className="text-3xl font-bold">看板</h1>
       </div>
     </div>
   )

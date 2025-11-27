@@ -1,7 +1,4 @@
 {
-  "name": "board",
-  "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -16,11 +13,15 @@
     "@tailwindcss/vite": "^4.1.17",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "ky": "^1.14.0",
     "lucide-react": "^0.555.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "swr": "^2.3.6",
     "tailwind-merge": "^3.4.0",
-    "tailwindcss": "^4.1.17"
+    "tailwindcss": "^4.1.17",
+    "wouter": "^3.8.0",
+    "zustand": "^5.0.8"
   },
   "devDependencies": {
     "@mancuoj/prettier-config": "^0.5.3",
